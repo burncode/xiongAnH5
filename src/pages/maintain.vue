@@ -103,11 +103,6 @@ import {mapState} from 'vuex'
       topTitle
     },
     methods:{
-      // selectAfterCopy() {
-      //   var ele = document.querySelector('#odd_numbers_id')
-      //   ele.focus()
-      //   ele.select()
-      // },
       handleCopy(text, event) {
         clip(text, event)
       },
