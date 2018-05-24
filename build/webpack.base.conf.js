@@ -8,8 +8,6 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
@@ -37,7 +35,7 @@ module.exports = {
 	        		{
 	                loader: 'vue-loader',
 	                options:	 vueLoaderConfig
-			        
+
 			    },
 	            {
 	                loader: 'iview-loader',
@@ -45,7 +43,7 @@ module.exports = {
 	                    prefix: false
 	                }
 	            }
-        	   ]       
+        	   ]
       },
       {
         test: /\.js$/,

@@ -14,7 +14,6 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
 Vue.use(VueClipboard)
-
 import {
   post,
   get,
