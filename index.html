@@ -62,18 +62,4 @@
 })(document, window);
 
 </script>
-<script>
-function ready(callback) {
-  if (window.XAppJSBridge) {
-    callback && callback();
-  } else {
-    document.addEventListener('XAppJSBridgeReady', callback, false);
-  }
-}
-ready(function() {
-  alert('bridge ready');
-});
-
-</script>
-
 </html>
